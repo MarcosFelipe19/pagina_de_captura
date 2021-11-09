@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    background-color: #31AED2;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+h1.titulo{
+    font-size: 26px;
+}
+section{
+    padding: 20px;
+    background-image: url('../imagens/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.container-form{
+    width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size:16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input,select{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+}
+input[type=submit]{
+    font-weight: bold;
+    background-color: #31AED2;
+}
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+     appearance: none;
+     background-image: url('../imagens/arrow.jpg');
+     background-repeat: no-repeat;
+     background-position: calc(100% - 10px) center;
+}
+footer{
+    background-color: #202221;
+    padding: 40px;
+    text-align: center;
+}
+footer img{
+    width: 160px;
+}
+footer div{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 40%;
+    margin-left: 20px;
+}
+footer h3, footer p{
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 24px;
+}
+@media screen and (max-width:720px) {
+    h1.titulo{
+        font-size: 20px;
+    }
+    .container-form{
+        float: none;
+        margin: 0 auto;
+    }
+}
+    footer{
+        background-color: #202221;
+        padding: 40px;
+        text-align: center;
+        font-size: 14px;
+    }
+    footer img{
+        width: 160px;
+    }
+    footer div{
+        display: inline-block;
+        text-align: left;
+        color: white;
+        max-width: 40%;
+        margin-left: 20px;
+    }
+    footer h3, footer p{
+        margin-bottom: 10px;
+    }
+    h3{
+        font-size: 18px;
+    }
+}
